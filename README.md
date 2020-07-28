@@ -6,7 +6,6 @@ This Repository contain short note on java object oriented design pattern along 
 ``` 
 This content/short note is for begineer only while professional can refere links. Everyone have a different perception and implementation. so just try to explore the perception about java object oriented design pattern with help of references.
 ```
-###### Tag: `GOF -  Gang Of 4`
 
 | `Reference Link`                                   |  
 | -------------------------------------------------- |  
