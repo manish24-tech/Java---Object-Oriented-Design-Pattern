@@ -3,7 +3,5 @@ This Repository contain short note on java object oriented design pattern along 
 
 | Tag        | Reference Link           | Note  |
 | ------------- |:-------------:| -----:|
-|  GoF - Gang Of Four      | 1. <https://sourcemaking.com/design_patterns/>
-                  2. <https://refactoring.guru/design-patterns/>
-                  3. <https://github.com/iluwatar/java-design-patterns> | This contain is short note for beginners only. professional can visit refrences  |
+|  GoF - Gang Of Four      | 1. <https://sourcemaking.com/design_patterns/> 2. <https://refactoring.guru/design-patterns/> 3. <https://github.com/iluwatar/java-design-patterns> | This contain is short note for beginners only. professional can visit refrences  |
 
