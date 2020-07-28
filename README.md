@@ -18,6 +18,7 @@ Purpose of design pattern is to make code flexible, reusable.
 
 # Difference Between Algorithm & Design Pattern :
 **_`Algorithm:`_** Clear set of an steps/instruction which have fixed rule for implementation
+
 **_`Design Pattern:`_** Blueprint that provide an idea for implementation
 
 ## Table Of Content
