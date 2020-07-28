@@ -63,4 +63,8 @@
 * It's not a thread-safe because multiple thread may have different instance to break singleton purpose and its create an issue while accessing from cache. So, perform costly operation via volatile class instance to grant the same access for all the object in multi-threading environment(make thread-safe)
 * Provide re-usability and molecularity for object construction by director class 
 * At the end it is most easy and preferable design pattern used in real time complex project to perform fixed object creation step by step and build master object
+
+    | Builder Design Pattern Diagram | 
+    | ---------------------- |
+    | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/builder_director.png "Builder Diagram") |
 ***
