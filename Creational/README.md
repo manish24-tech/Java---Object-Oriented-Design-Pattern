@@ -5,7 +5,7 @@
 * Provide re-usability for object construction like welcome new object after a while easily without touching business logic 
 * At the end creating a factory that responsible to build core logic/abstraction layer for object construction to use as per need by factory 
 
-    | Factory Method Diagram | 
+    | Factory Method Design Pattern Diagram | 
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/factory_method.png "Factory Method Diagram") |
 ***
@@ -17,7 +17,7 @@
 * Abstract Factories Design Pattern Stores `Singleton Design Pattern` and `Prototype Design Pattern`
 * At the end creating an abstract factory that responsible to build core logic/abstraction layer for group of related object construction to use as per need by factory 
 
-    | Abstract Factory Method Diagram | 
+    | Abstract Factory Method Design Pattern Diagram | 
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/abstract_factory.png "Abstract Factory Method Diagram") |
 ***
@@ -29,7 +29,7 @@
 * Singleton design pattern for single object instance creation used in `Abstract factories`, `builder` and `prototype` design pattern also
 * At the end Its easy but much costly so used when must provide visibility of variable by making volatile instance and private constructor to share global instance
 
-    | Abstract Factory Method Diagram | 
+    | Singleton Design Pattern Diagram | 
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/singleton.png "Singleton Diagram") |
 ***
@@ -44,6 +44,10 @@
     3. in java used copy constructor instead of Cloneable interface to avoid general type and get guarantee for proper type 
 * Prototype design pattern for copying object instance used in Abstract factories design pattern also
 * At the end Its cloning existing object for providing caching, memory efficiency and avoiding re-initialization
+
+    | Prototype Design Pattern Diagram | 
+    | ---------------------- |
+    | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/prototype.png "Prototype Diagram") |
 ***
 #### 5. Builder: 
 ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/builder-mini.png "Builder Creational Design Pattern")  
