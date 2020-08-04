@@ -65,3 +65,17 @@
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/builder_director.png "Builder Diagram") |
 ***
+#### 6. Object Pool: 
+
+![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/object_pool.png "Object Pool Creational Design Pattern")  
+* Object pool is a collection of reusable objects as per maximum pool size that restrict client to initializing and destroying instance on demand but it is allow user to reuse available instance from object pool based on Coherent Policy
+* *`Coherent Policy:`* managing an object as per pool size instead of initialize new or destroy existing
+* Create singleton class with private constructor |OR| abstract class with synchronous method to manage reusable object by sharing them with client request
+* Singleton Vs. Object pool  [java.sql.Connection]:
+
+    | Singleton Design Pattern Diagram | Object Pool Design Pattern Diagram | 
+    | ------------------------------ | ------------------------------ |
+    | singleton create single global instance and shared with multiple client asynchronously| object pool create instances as per pool size and share with multiple client instead of initialize and destroy| 
+    | once object is destroy then it will re-initiate an object| one of the instance is destroyed then it will not create another instance| 
+    | should destroy an object when all thread has done their job - means when last instance had done job after first and middle instance then and then destroy. if destroyed from middle instance then last instance become null| should not destroy any of instance and maintain Coherent Policy|
+***
