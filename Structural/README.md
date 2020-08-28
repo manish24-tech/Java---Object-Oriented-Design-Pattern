@@ -33,3 +33,17 @@ Thus, Employees assignment object can collaborate with equipment object
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/bridge.png "Bridge Diagram") | 
 ***
+#### 3. Composite: 
+![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/composite-mini.png "Composite Design Pattern")  
+* Compose the group of objects of same type(component) to create hierarchy
+*  *`Component(I):`* common interface with transnational method which are common in both Leaf(C) and Composite(C) element
+*  *`Leaf Element(C):`* it is root element that implement component which create summation of composite elements. it does not have sub elements  
+*  *`Composite Element(C):`* group of classes that implement component(C) which add different leaf elements category and display consolidate result of sub elements also
+* ex. one organization categorize with different region and region categorize with  different sub branches. Component =  organization, Leaf Element = OrganizationLeaf and composite Elements = [India , USA ... etc]
+* At the end Composite is to compose group of object of same type single hierarchically with basic and composite element
+
+
+    | Composte Design Pattern Diagram | 
+    | ---------------------- |
+    | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/composite.png "Composite Diagram") | 
+***
