@@ -8,7 +8,7 @@ Thus, Employees assignment object can collaborate with equipment object
   1. implement one interface and initialize another interface in constructor for collaboration 
   2. override unimplemented method of one interface and define the implementation of another interface 
   
-* At the end Adapter is middle layer class that wrap incompatible objects of an interfaces and implementation in single unit with missing feature for providing collaboration/compensation of different object
+* At the end Adapter is middle layer class that wrap incompatible objects of an interfaces and implementation in single unit with missing feature for providing collaboration/composition of different object
 
     | Adapter Design Pattern Diagram | 
     | ---------------------- |
