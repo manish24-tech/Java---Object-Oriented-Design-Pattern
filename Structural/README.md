@@ -40,10 +40,23 @@ Thus, Employees assignment object can collaborate with equipment object
 *  *`Leaf Element(C):`* it is root element that implement component which create summation of composite elements. it does not have sub elements  
 *  *`Composite Element(C):`* group of classes that implement component(C) which add different leaf elements category and display consolidate result of sub elements also
 * ex. one organization categorize with different region and region categorize with  different sub branches. Component =  organization, Leaf Element = OrganizationLeaf and composite Elements = [India , USA ... etc]
-* At the end Composite is to compose group of object of same type single hierarchically with basic and composite element
+* At the end composite is to compose group of object of same type single hierarchically with basic and composite element
 
 
     | Composte Design Pattern Diagram | 
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/composite.png "Composite Diagram") | 
+***
+#### 4. Decorator: 
+![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/decorator-mini.png "Decorator Design Pattern")  
+* Decorator is same as aggregation or composition in which we can generalize one entity  reference into another entity
+* Purpose of decorator is used to create a wrapper of core module which having common interface for customization
+* Ex. Organization running with web and Mobile Application development. after sometime it also want to run with CMS framework. so, in this case core module will be same of Technologies stack but it will create a wrapper for CMS technology stack and implement customize core module functionality
+* Wrapper class implements common interface and also generalize decorator type of same interface for customize implementation 
+* At the end decorator is used to attach additional behavior of an object at run time by creating  wrapper implementation of common interface type
+
+
+    | Decorator Design Pattern Diagram | 
+    | ---------------------- |
+    | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/decorator.png "Decorator Diagram") | 
 ***
