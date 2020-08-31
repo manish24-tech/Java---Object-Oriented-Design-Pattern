@@ -71,3 +71,18 @@ Thus, Employees assignment object can collaborate with equipment object
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/facade.png "Facade Diagram") | 
 ***
+#### 6. Flyweight: 
+![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/flyweight-mini.png "Flyweight Design Pattern")  
+* Flyweight is share single instance for group of same type object which having at-least common field in all the object
+* *`intrinsic field:`* common field in group of objects 
+* *`extrinsic field:`* different field in group of object 
+* Flyweight used when we have large number of same type object and save cost of object initialization to provide memory efficiency. ex. in organization has many departments and all department has intrinsic field: code
+* It is used with factory design pattern that provide factory to either initialize new object and stored in map or get existing instance from map
+* *`Flyweight vs. Factory:`* factory used to initialize new object every time while flyweight have map object that keep track of an object to be share
+* *`Flyweight vs. Singleton:`* singleton is used for heavyweight object initialization like data source, connection while flyweight is decided based on intrinsic field and  extrinsic field in group of objects of the same type
+* At the end flyweight can be use with factory design pattern to share single instance to large group of object of the same type and provide memory efficiency 
+
+    | Flyweight Design Pattern Diagram | 
+    | ---------------------- |
+    | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/flyweight.png "Flyweight Diagram") | 
+***
