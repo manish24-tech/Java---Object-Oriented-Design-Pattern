@@ -60,3 +60,14 @@ Thus, Employees assignment object can collaborate with equipment object
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/decorator.png "Decorator Diagram") | 
 ***
+#### 5. Facade: 
+![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/facade-mini.png "Facade Design Pattern")  
+* Facade is library that encapsulate complex application business logic of a sub systems into a class that wrap into static/non-static method such as utility class/java 8 functional interface
+* Facade has limited responsibility but it separate business logic operated by other sub systems/modules/components. So, every sub system does not contain larger body and just have callback function from facade object
+* Ex. Organization have many objects with default fields for audit(createdDate, modifiedDate) and store, retrieve date operation is common for all objects. So, date conversion can be manage by facade class/functional interface. its just a simple but it can be service layer like  add, update, delete data to/from DB in MVC pattern
+* At the end facade is library/utility that separate complex business logic from sub modules to short the body of code and provide loosely coupled code
+
+    | Facade Design Pattern Diagram | 
+    | ---------------------- |
+    | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/facade.png "Facade Diagram") | 
+***
