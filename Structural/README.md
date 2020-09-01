@@ -86,3 +86,14 @@ Thus, Employees assignment object can collaborate with equipment object
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/flyweight.png "Flyweight Diagram") | 
 ***
+#### 7. Proxy: 
+![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/proxy-mini.png "Proxy Design Pattern")  
+* Proxy is way to collaborate two different resource object located at different domain/place and provide access control of another object with lazy loading(initialize the object when its actually needed)
+* It is used when we want to consume another resource library(located remotely) into our project(locally or different remotely). So that we can use services of that library and create wrapper system
+* Ex. Project-Agent is having project list service and we want sophisticated reference of service object then we required to create wrapper class(Project-Notification-Proxy) of the same interface type(common for both Project-Agent & Project-Notification-Proxy )
+* At the end proxy is sophisticated reference of another remote object to get control access of same type in our system with loading services lazily  
+
+    | Proxy Design Pattern Diagram | 
+    | ---------------------- |
+    | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/proxy.png "Proxy Diagram") | 
+***
