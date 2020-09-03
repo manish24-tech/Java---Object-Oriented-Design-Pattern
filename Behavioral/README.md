@@ -9,7 +9,7 @@
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/chain_of_responsibility.png "Chain Diagram") | 
 ***
-#### 1. Command: 
+#### 2. Command: 
 ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/command-mini.png "Command Behavioral Design Pattern")  
 * Command is a middle layer to flow the client request from sender to receiver with carrying data with/without parameter like "principle of separation of concerns":
    *`1. Client is requesting from GUI - click button`*
@@ -23,4 +23,20 @@
     | Command Design Pattern Diagram | 
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/command.png "Command Diagram") | 
+***
+#### 3. Iterator: 
+![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/iterator-mini.png "Iterator Behavioral Design Pattern")  
+* Iterator provide standard way to access element from group of object sequentially with making business logic  representation protected from the client
+* In java, Collection framework is the example of iterator design pattern and allowing user to use various types of abstract data type(ArrayList, DeQueue, Hashset..etc) to traverse the element with advance feature(add,remove,equal..etc)
+* Purpose of iterator design pattern is to traverse an elements of group of object using various data structure like Stack, Queue, LinkedList, ArrayList, Map...etc
+* Basic implementation [defined in java itself with advance feature with so many abstraction level but we will simplify it]:
+*   *`=> create an generic interface Iterator<E> with hashNext() and next() method definition`*
+*   *`=> create generic interface Collection<E> that have reference of the type of Iterator<E> interface that responsible to create/initialize generic type of iterator in its implementation class`*
+*   *`=> create generic container class<E>  implement Collection<E> for Itr initialization and also create nested private Itr class implements Iterator<E> with hasNext() and next() representation`*
+*   *`=> in client application we can get the list of the type of iterator and traverse an element based on hasNext() and next() bonding`*
+* At the end iterator is used to traversing element from group of object with protecting internal representation from client and create ADT(abstract data type) with various data structure to manage the collections 
+
+    | Iterator Design Pattern Diagram | 
+    | ---------------------- |
+    | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/iterator.png "Iterator Diagram") | 
 ***
