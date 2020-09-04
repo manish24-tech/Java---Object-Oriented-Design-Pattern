@@ -40,3 +40,14 @@
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/iterator.png "Iterator Diagram") | 
 ***
+#### 4. Mediator: 
+![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/mediator-mini.png "Mediator Behavioral Design Pattern")  
+* Mediator is allow objects to be communicate with each other without direct access for making code loosely coupled and restrict tight dependency of each other
+* Objects interaction done via mediator object only. So, that each object is an-aware about sender-receiver and provide re-usability 
+* Ex. In organization, 1. employees can not represent their financial concern directly to CA but its manage via HR as mediator || 2. employee can not sent resign/issue mail to CEO but its interaction done with HR as mediator
+* At the end mediator preferred only when complex objects interaction is required to be manage independently 
+
+    | Mediator Design Pattern Diagram | 
+    | ---------------------- |
+    | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/mediator.png "Mediator Diagram") | 
+***
