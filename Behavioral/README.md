@@ -51,3 +51,18 @@
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/mediator.png "Mediator Diagram") | 
 ***
+#### 5. Memento: 
+![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/memento-mini.png "Memento Behavioral Design Pattern")  
+* Memento create a copy of original object state in special object to promote redo/undo operation for getting previous state of an object
+* It will hold the state of original object without violating encapsulation or implementation of an original object
+* The Memento design pattern defines three distinct roles:
+*   *`Originator => `* original object that write its state for saving & restoring into memento
+*   *`Memento => `* handler class that contain original object's field only without implementation and helper method to get those field as state
+*   *`Caretaker => `* container class that store list of memento and restore previously stored memento from original object
+* Ex. organization have leaves calendar. sometimes it might contain date mismatch while data entry. So, it can restored to previous state of entry in calendar using memento
+* At the end memento is used to hold the previous state of an object from actual object without violating implementation for performing redo operation
+
+    | Memento Design Pattern Diagram | 
+    | ---------------------- |
+    | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/memento.png "Memento Diagram") | 
+***
