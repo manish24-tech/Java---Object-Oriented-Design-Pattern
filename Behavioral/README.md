@@ -66,3 +66,15 @@
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/memento.png "Memento Diagram") | 
 ***
+#### 6. Observer: 
+![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/observer-mini.png "Observer Behavioral Design Pattern")  
+* Observer provide collaboration and dependency of objects as publisher and subscriber to notify each other about any state change or event
+* Publisher is responsible to notify the subscriber while subscriber is responsible to get update from publisher regarding any new event
+* It create one to many or many to one relationship between publisher and subscriber via subject -  nothing but channel as mediator between both
+* Ex. in YouTube, there are channels running by owner/publisher whose used to publish the content and the subscribers whose subscribed the channel will get notification regarding content from publisher
+* At the end observer is pub-sub model where subscriber are observing any new event or state change from publisher to get update and this way they can track the event/objects
+
+    | Observer Design Pattern Diagram | 
+    | ---------------------- |
+    | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/observer.png "Observer Diagram") | 
+***
