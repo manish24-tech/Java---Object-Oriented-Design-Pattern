@@ -78,3 +78,14 @@
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/observer.png "Observer Diagram") | 
 ***
+#### 7. State: 
+![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/state-mini.png "State Behavioral Design Pattern")  
+* State allows object to change its behavior when its internal state is getting changed. internal state is nothing but the different objects as function/event/behavior of actual object
+* Context object is a root object that contain helper method to change the state of its concrete objects. these concrete object belongs to the same type of an interface  which referenced in context object to alter behavior 
+* Ex. organization website contain different information which changing information based on different click event OR any helpline app which contain 1 to 5 number and each number gives different department information
+* At the end state is nothing more then an object with relevant properties/behavior of the actual context object to alter the its state runtime like polymorphic mechanism
+
+    | State Design Pattern Diagram | 
+    | ---------------------- |
+    | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/state.png "State Diagram") | 
+***
