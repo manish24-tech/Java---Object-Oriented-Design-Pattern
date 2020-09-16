@@ -108,3 +108,18 @@
     | ---------------------- |
     | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/template_method.png "Template Method Diagram") | 
 ***
+#### 9. Visitor: 
+![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_img/visitor-mini.png "Visitor Behavioral Design Pattern")  
+* Visitor design pattern is responsible to define an operation to group of object in hierarchy without changing its business logic
+* Placing new behavior in separate class is called visitor means it allows to add new functionality in existing code
+* It is manly preferred when we want to perform operation on all elements of a complex object structure, ex. an object tree
+* Visitor interface contain multiple visit method with different types of an element while element interface contain single abstract method called accept which responsible to accept visitor object
+* Concrete class of elements interface as different data-structure which having implementation of single abstract method.
+* Concrete class of visitor interface as new functionality for all type of object that responsible to add behavior to all data-structure/object/element
+* At the end its not common pattern because of its complexity like need to update all visitors each time a class gets added to or removed from the element hierarchy
+
+    | Visitor Design Pattern snippet | 
+    | ---------------------- |
+    | ![alt text](https://github.com/manish24-tech/Java-Object-Oriented-Design-Pattern/blob/master/DP_Diagram/Interface_concrete_visitor.png "visitor Diagram") | 
+    | Reference From : https://sourcemaking.com/design_patterns/visitor/java/1 | 
+***
