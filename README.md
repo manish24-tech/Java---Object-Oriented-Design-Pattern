@@ -34,7 +34,7 @@ creational design pattern is designs for class and object creation that provide 
 3. Singleton
 4. Prototype
 5. Builder
-***
+
 ## 2. Structural Design Pattern
 structural design pattern is designs for class and object componsation that provide generalization, aggregation between real-world entities. It contain mainly 7 design pattern such as:
 1. Adapter
@@ -44,9 +44,9 @@ structural design pattern is designs for class and object componsation that prov
 5. Facade
 6. Flyweight
 7. Proxy
-***
-## 3. Behavior Design Pattern
-creational design pattern is provide designs for class and object creation and provide collaboration between real-world entities. It contain mainly 9-10 design pattern such as:
+
+## 3. Behavioral Design Pattern
+behavioral design pattern is designs for class and object collaboration that provide bonding and dependency between real-world entities. It contain mainly 9-10 design pattern such as:
 1. Chain Of Responsibility
 2. Command
 3. Iterator
